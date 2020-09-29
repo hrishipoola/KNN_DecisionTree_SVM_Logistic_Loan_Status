@@ -1,1 +1,16 @@
-# KNN_DecisionTree_SVM_Logistic_Loan_Status
+KNN, Decision Tree, SVM, Logistic Regression to Predict Loan Status
+
+Today, we'll look into the question: will a new bank customer default on his or her loan? We'll optimize, train, make predictions with, and evaluate four classification models - K Nearest Neighbor (KNN), Decision Tree, Support Vector Machine (SVM), and logistic regression - for loan status of new customers. We'll work with a bank data set of 346 customers with key variables such as loan status, principal, terms, effective date, due date, age, education, and gender. A bank's department head, for example, could apply a predictive model to better structure loans and tailor terms to various target customers. Let's break it down:
+
+Part 1: Cleaning and wrangling, including converting data types, using .to_datetime, and replacing values
+Part 2: Exploratory analysis, including plotting stratified histograms, working with groupby, creating new relevant variables, and making observations to determine key features
+Part 3: One hot encoding to convert categorical variables with multiple categories to binary variables using pd.get_dummies and adding new features using pd.concat
+Part 4: Feature selection of predictors (X) and labeled target (y)
+Part 5: Normalizing feature set using scikit learn's preprocessing.StandardScaler.fit.transform
+Part 6: KNN, including determining and plotting optimal k value, training model and making predictions on test set, generating a confusion matrix heatmap and report, evaluating jaccard and F1 scores
+Part 7: Decision Tree, including determining and plotting optimal max depth, training model and making predictions on test set, visualizing decision tree using pydotplus and graphviz, generating a confusion matrix heatmap and report, evaluating jaccard and F1 scores
+Part 8: SVM, including determining and plotting optimal kernel function, training model and making predictions on test set, generating a confusion matrix heatmap and report, evaluating jaccard and F1 scores
+Part 9: Logistic Regression, including determining and plotting optimal regularization and numerical solver, training model and making predictions on test set, calculating probability, generating a confusion matrix heatmap and report, evaluating jaccard, F1, and log loss scores
+Part 10: Evaluating model performance head-to-head by creating a dataframe of accuracy scores for KNN, Decision Tree, SVM, and Logistic Regression models to make comparisons
+
+We'll cover cleaning, wrangling, and visualizing techniques, apply important scikit learn libraries to develop, optimize, train, and make predictions, and walk through evaluating and comparing models. Let's dig in.
